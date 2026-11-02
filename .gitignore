@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Never commit Hermes data or secrets
+.env
+*.env
+auth.json
+state.db
+state.db-wal
+state.db-shm
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
